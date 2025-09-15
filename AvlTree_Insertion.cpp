@@ -153,5 +153,9 @@ int main()
 	Avl.Inorder();
 }
 
-// Time complexity : log2(n) {ADD} , O(1) {Rotation} , O(log2(n)) {
-// overall Time complexity --> O(log2(n))
+// Time complexity : 
+// O(log2(n)) {ADD} i.e O(nlogn) {for n nodes), O(1) {Rotation} , O(log2(n)) {search}
+// overall Time complexity --> O(nlog2(n))
+// space complexity : 
+// O(n) {Node storage} , Recurision Stack (O(log2(n)) 
+// Overall space complexity : O(n)
